@@ -138,7 +138,7 @@ The complete file is [`examples/run.py`](examples/run.py). Never put your token 
 
 ### 4. REST API on RapidAPI, one key for all your APIs
 
-If you already use RapidAPI, the same data is available as a plain REST API with monthly plans and a free tier: [free-work-jobs on RapidAPI](https://rapidapi.com/VivienMORVAN/api/free-work-jobs). No Apify account needed, billing goes through your RapidAPI subscription.
+If you already use RapidAPI, the same data is available as a plain REST API with monthly plans and a free tier: [free-work-jobs on RapidAPI](https://rapidapi.com/VivienMORVAN/api/free-work-jobs), also listed on [Zyla API Hub](https://zylalabs.com/api-marketplace/company+data/free+work+jobs+api/14510). No Apify account needed, billing goes through your marketplace subscription.
 
 ```bash
 curl -X POST "https://free-work-jobs.p.rapidapi.com/v2/acts/bibian~free-work-jobs-scraper/run-sync-get-dataset-items?clean=true" \
